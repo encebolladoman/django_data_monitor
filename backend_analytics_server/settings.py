@@ -90,7 +90,7 @@ WSGI_APPLICATION = "backend_analytics_server.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.environ.get('MYSQL_DATABASE'),
+        'NAME': os.environ.get('MYSQLDATABASE'),
         'USER': os.environ.get('MYSQLUSER'),
         'PASSWORD': os.environ.get('MYSQLPASSWORD'),
         'HOST': os.environ.get('MYSQLHOST'),
